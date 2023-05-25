@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="icon" href="Images/727df68fc2afa20119f2dcebc062e75a.jpg" type="image/x-icon">
+
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Quiz redes de computadores</title>
+
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <div class="imagem">
+ <img src="Images/267912632_5092074627478484_2890763156877190656_n.png" alt="logo estacio">
+ </div>
+
+ <h2>REDES DE COMPUTADORES</h2>
+ <main>
+ 
+ <div class="content">
+ <span class="spnQtd"></span>
+ <span class="question"></span>
+ <div class="answers"></div>
+ </div>
+ <div class="finish">
+ <span></span>
+ <!-- Botão para abrir o modal -->
+ <button id="myBtn">Gabarito</button>
+ <!-- Adicionando um id ao botão Reiniciar -->
+ <button id="btnRestart">Reiniciar</button>
+ </div>
+ 
+ <!-- Modal -->
+ <div id="myModal" class="modal">
+ <!-- Modal content -->
+ <div class="modal-content">
+ <span class="close">&times;</span>
+ <p><strong>Gabarito:</strong><br>
+
+  1- Gabarito: E.<br>
+
+  Comentário: Todas as alternativas apresentam serviços e elementos que compôem o funcionamento da camada de aplicação, por isso, todas as alternativas estão corretas.<br>
+  <br>
+  2- Gabarito: D.<br>
+
+  Comentário: As alternativas A e C apresentam protocolos de outra camada, não são protocolos de transporte, ja as alternativas B e D, apresentam protocolos de transporte, porém, na situação presente no enunciado, o aluno deve escolher um protocolo que garante a não perda de pacotes e entrega total dos dados enviados, por isso, o TCP é a alternativa correta, já que ele é um protocolo orientado a conexão.<br>
+  <br>
+  3- Gabarito: D.<br>
+  Comentário: A segmentação e o reagrupamento de dados é o serviço responsável por dividir a mensagem de dados em segmentos menores para facilitar a transmissão pela rede e, em seguida, a reagrupação desses segmentos no destino para reconstituir a mensagem original.<br>
+  <br>
+  4- Gabarito: B.<br>
+  comentário: a camada de rede é a terceira camada do modelo osi, localizada depois da camada de enlace e antes da camada de transporte.
+
+ </p>
+ </div>
+ </div>
+ 
+ </main>
+ 
+ <script src="script.js" type="module"></script>
+</body>
+</html>
